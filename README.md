@@ -7,8 +7,10 @@ A conceptual smartphone and SoC design. The requested chipset name is interprete
 | Component | Proposed specification |
 | --- | --- |
 | Name | Miaomi |
+| Brand logo | 🇦🇱 |
 | Display | 6.9-inch OLED touchscreen |
 | Front design | Display notch for the front-facing camera and sensors |
+| Rear camera | Dual-camera system: two rear cameras arranged like an iPhone-style Duo camera setup |
 | Top speaker | High-quality earpiece speaker; stereo playback can use a second speaker if included |
 | Battery | 6,550 mAh |
 | Charging | USB-C; requested full-charge time: approximately 4.5 hours (depends on charger, battery chemistry, and charging profile) |
@@ -20,6 +22,10 @@ A conceptual smartphone and SoC design. The requested chipset name is interprete
 | Chipset | ConMediatek 5 Extreme Gen 1 (proposed name) |
 | Chipset maximum clock | 5,300 MHz (5.3 GHz), as specified by the concept |
 | Manufacturing target | 13 nm (as specified by the concept) |
+
+## Camera concept
+
+The Miaomi rear module uses two cameras in a compact vertical Duo-style arrangement inspired by common modern dual-camera phones. The concept does not specify sensor sizes, focal lengths, apertures, stabilization, zoom, or resolution. Those details require optical, sensor, ISP, thermal, and software design.
 
 ## NotchOS 3 concept
 
@@ -60,7 +66,8 @@ A 13 nm process and a 5.3 GHz maximum clock are hardware targets, not features t
 
 1. Define the phone's cost, size, performance, battery-life, and sustained-power targets.
 2. Select the OLED panel, notch dimensions, speaker arrangement, SIM configuration, and USB-C charging protocol.
-3. Define chipset CPU/GPU architecture and validate clock targets against the process, thermal limits, and power budget.
-4. Specify NotchOS 3 components and build a software prototype with notch-aware layouts.
-5. Plan six years of Android-based maintenance and security updates.
-6. Create hardware prototypes and test charging time, thermal behavior, display, audio, cellular connectivity, and GPU workloads.
+3. Design the dual rear-camera arrangement and select sensor, lens, and ISP specifications.
+4. Define chipset CPU/GPU architecture and validate clock targets against the process, thermal limits, and power budget.
+5. Specify NotchOS 3 components and build a software prototype with notch-aware layouts.
+6. Plan six years of Android-based maintenance and security updates.
+7. Create hardware prototypes and test charging time, thermal behavior, display, audio, cellular connectivity, cameras, and GPU workloads.
